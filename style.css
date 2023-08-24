@@ -1,0 +1,46 @@
+/* .dropdown:hover .dropdown-menu {
+  display: flex !important;
+  flex-flow: column;
+  justify-content: center;
+} */
+body {
+  background-color: aquamarine;
+  background-image: url(bVVb3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: sticky;
+
+}
+.nav {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+.dropdown-menu {
+  background-color: lightslategray;
+}
+a {
+  color: blue;
+  font-size: 20px;
+}
+a:hover {
+  color: rgb(68, 249, 32);
+}
+li{
+  
+  font-family: 'Holtwood One SC', serif;
+  
+  color: burlywood;
+ 
+}
+
+  .nav-link :hover{
+    color: blueviolet;
+  }
+  .nav-item:hover{
+    color: chartreuse;
+  }
+  .nav-item:visited{
+    color: aquamarine;
+  }
+
